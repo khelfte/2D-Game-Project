@@ -1,0 +1,143 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Red Like Roses</title>
+<maxStringSize>50</maxStringSize>
+<NumSprites>10</NumSprites>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>malloy</username>
+
+<view>
+  <width>854</width>
+  <height>720</height>
+</view>
+
+<world>
+  <width>8000</width>
+  <height>720</height>
+</world>
+
+<sky>
+  <file>assets/Night.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</sky>
+<stars>
+  <file>assets/stars.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</stars>
+<field>
+  <file>assets/clearing.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</field>
+
+<Loadscreen>
+  <file>assets/loadscreen.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</Loadscreen>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Wolf>
+  <file>assets/wolfspriteR.png</file>
+  <startLoc x="300" y="550"/>
+  <frames>4</frames>
+  <imageWidth>118</imageWidth>
+  <imageHeight>92</imageHeight>
+  <frameInterval>80</frameInterval>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Wolf>
+<WolfLeft>
+  <file>assets/wolfspriteL.png</file>
+  <startLoc x="300" y="550"/>
+  <frames>4</frames>
+  <imageWidth>118</imageWidth>
+  <imageHeight>92</imageHeight>
+  <frameInterval>80</frameInterval>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</WolfLeft>
+
+<Crow>
+  <file>assets/crowsR.png</file>
+  <startLoc x="0" y="140"/>
+  <frames>6</frames>
+  <imageWidth>39</imageWidth>
+  <imageHeight>44</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>400</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</Crow>
+<CrowLeft>
+  <file>assets/crowsL.png</file>
+  <startLoc x="0" y="140"/>
+  <frames>6</frames>
+  <imageWidth>39</imageWidth>
+  <imageHeight>44</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>400</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</CrowLeft>
+
+<Ruby>
+  <file>assets/RsprintR.png</file>
+  <startLoc x="0" y="500"/>
+  <frames>8</frames>
+  <imageWidth>150</imageWidth>
+  <imageHeight>132</imageHeight>
+  <frameInterval>60</frameInterval>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Ruby>
+<RubyLeft>
+  <file>assets/RsprintL.png</file>
+  <startLoc x="0" y="500"/>
+  <frames>8</frames>
+  <imageWidth>150</imageWidth>
+  <imageHeight>132</imageHeight>
+  <frameInterval>60</frameInterval>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</RubyLeft>
+<Moon>
+  <file>assets/moon.png</file>
+  <startLoc x = "4000" y = "0"/>
+  <imageWidth>300</imageWidth>
+  <imageHeight>200</imageHeight>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</Moon>
+<Trees>
+  <file>assets/scenery.png</file>
+  <startLoc x = "0" y = "0"/>
+  <imageWidth>1650</imageWidth>
+  <imageHeight>740</imageHeight>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</Trees>
+
+</GameData>
